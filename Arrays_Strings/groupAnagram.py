@@ -12,6 +12,7 @@ def groupAnagram(words):
     map = defaultdict(list)
     for word in words:
         sorted_word = sortWord(word)
+        print(sorted_word)
         # if sorted_word not in map:
         #     map[sorted_word].append(word)
 
